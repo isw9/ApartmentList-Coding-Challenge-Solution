@@ -135,7 +135,8 @@ public class ApartmentList {
         countTwo = countTwo + 1;
       }     
     }
-    //if one of the strings has not reached the end, add one to the differenceCounter
+    /*if one of the strings has not reached the end, add one to the differenceCounter as there is obviously a difference
+     * at that location */
     while (countOne < oneLength || countTwo < twoLength) {
       if (countOne < oneLength) {
         differenceCounter++;

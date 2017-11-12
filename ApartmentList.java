@@ -136,9 +136,17 @@ public class ApartmentList {
       }     
     }
     //if one of the strings has not reached the end, add one to the differenceCounter
-    if (countOne < oneLength || countTwo < twoLength) {
-      differenceCounter = differenceCounter + 1;
+    while (countOne < oneLength || countTwo < twoLength) {
+      if (countOne < oneLength) {
+        differenceCounter++;
+        countOne++;
+      }
+      else {
+        differenceCounter++;
+        countTwo++;
+      }   
     }
+
     
     if (differenceCounter == 1) {
      return true; 

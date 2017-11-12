@@ -15,5 +15,5 @@ Then run the program by typing:
 <path to ApartmentList.java> java ApartmentList LISTY
 
 ```
-Note that this can find the social network size for words other than "LISTY". To do this, replace "LISTY" in the above code snippet with the word of your choosing. This can also ben ran through an IDE of your choice (such as Dr. Java)
+Note that this can find the social network size for words other than "LISTY". To do this, replace "LISTY" in the above code snippet with the word of your choosing. This can also ben ran through an IDE of your choice (such as Dr. Java). The dictionary.txt files have also been provided for convenience.
 

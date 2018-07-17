@@ -4,6 +4,7 @@ import java.io.FileNotFoundException;
 import java.util.Stack;
 
 
+
 //Isaac Withrow
 public class ApartmentList {
 

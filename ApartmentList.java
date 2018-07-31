@@ -23,6 +23,7 @@ public class ApartmentList {
         size[k] = 0;
       }
 
+
       try {
         Scanner scanner = new Scanner(file);
         int i = 0;
